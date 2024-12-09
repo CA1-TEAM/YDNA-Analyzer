@@ -1,8 +1,10 @@
 YDNA-Analyzer
+
 Overview
 The YDNA-Analyzer is a standalone Python tool for analyzing Y-DNA data. It allows users to visualize Y-DNA patterns through scatter plots, providing insights into genealogical connections, haplogroup trends, and DNA relationships.
 
 Features
+
 Scatter Plots: Visualize SNP vs. STR data with color-coded haplogroups.
 Standalone Tool: Does not require Gramps or any other software dependencies.
 Easy to Use: Load Y-DNA data from a CSV file and analyze it with simple commands.
@@ -48,7 +50,9 @@ View the Results:
 
 A scatter plot will be generated, showing SNP (x-axis) vs. STR (y-axis) with haplogroups color-coded.
 Requirements
+
 Python 3.6 or Later: Ensure Python is installed on your system. Download it from python.org.
+
 Dependencies:
 pandas: For data manipulation.
 matplotlib: For data visualization.
@@ -56,10 +60,12 @@ Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository on GitHub.
+
 Create a new branch for your feature or bug fix.
 Commit your changes with clear messages.
 Submit a pull request with a detailed description of your changes.
 License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Support
