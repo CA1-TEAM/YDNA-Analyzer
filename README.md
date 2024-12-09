@@ -1,59 +1,68 @@
-# Gramps-YDNA-Analyzer
+YDNA-Analyzer
+Overview
+The YDNA-Analyzer is a standalone Python tool for analyzing Y-DNA data. It allows users to visualize Y-DNA patterns through scatter plots, providing insights into genealogical connections, haplogroup trends, and DNA relationships.
 
-## Overview
-Gramps-YDNA-Analyzer is a plugin for [Gramps](https://gramps-project.org/), the open-source genealogy software. This plugin enhances Gramps by enabling users to analyze Y-DNA data with scatter plots and modular tools, providing insights into genealogical connections through Y-DNA patterns.
+Features
+Scatter Plots: Visualize SNP vs. STR data with color-coded haplogroups.
+Standalone Tool: Does not require Gramps or any other software dependencies.
+Easy to Use: Load Y-DNA data from a CSV file and analyze it with simple commands.
+Installation
+To use the YDNA-Analyzer, follow these steps:
 
-## Features
-- **Scatter Plots:** Visualize Y-DNA data to identify trends, relationships, and patterns.
-- **Modular Tools:** Flexible and customizable tools to assist in detailed Y-DNA analysis.
-- **Integration with Gramps:** Seamlessly integrates with Gramps for an enhanced genealogical research experience.
+Download the Tool:
 
-## Installation
-Follow these steps to install the Gramps-YDNA-Analyzer plugin:
+Visit the YDNA-Analyzer GitHub repository.
+Click the green Code button and select Download ZIP.
+Extract the Files:
 
-1. **Download the Plugin:**
-   - Visit the [Gramps-YDNA-Analyzer GitHub repository](https://github.com/CA1-TEAM/Gramps-YDNA-Analyzer).
-   - Click the green **Code** button and select **Download ZIP**.
+Unzip the downloaded file to access the tool files.
+Install Dependencies:
 
-2. **Extract the Files:**
-   - Unzip the downloaded file to access the plugin files.
+Open a terminal or command prompt.
+Navigate to the extracted folder and install the required Python libraries:
+pip install pandas matplotlib
+Usage
+Follow these steps to analyze your Y-DNA data:
 
-3. **Install the Plugin:**
-   - Locate the Gramps user directory on your system.
-   - Navigate to the `plugins` folder within the user directory.
-   - Copy the extracted plugin files into the `plugins` folder.
+Prepare Your Data:
 
-4. **Restart Gramps:**
-   - Close and reopen Gramps to load the new plugin.
+Create a CSV file containing your Y-DNA data with the following structure:
+SNP,STR,Haplogroup
+12,20,A
+15,23,B
+17,22,A
+14,25,C
+16,21,B
+Run the Tool:
 
-## Usage
-After installation, you can access the Gramps-YDNA-Analyzer plugin as follows:
+Open a terminal or command prompt.
+Navigate to the directory containing the ydna_analyzer.py file.
+Run the script:
+python ydna_analyzer.py
+Provide the Path to Your CSV File:
 
-1. Open Gramps.
-2. Navigate to the **Tools** menu.
-3. Select **Gramps-YDNA-Analyzer** from the available tools.
-4. Use the plugin to analyze Y-DNA data with scatter plots and modular tools.
+When prompted, enter the path to your Y-DNA CSV file.
+Example:
+Enter the path to your Y-DNA CSV file: test_data.csv
+View the Results:
 
-## Requirements
-- **Gramps Version:** Ensure you have Gramps installed on your system. You can download it from the [Gramps website](https://gramps-project.org/).
-- **Python:** Python must be installed as Gramps and its plugins rely on it.
+A scatter plot will be generated, showing SNP (x-axis) vs. STR (y-axis) with haplogroups color-coded.
+Requirements
+Python 3.6 or Later: Ensure Python is installed on your system. Download it from python.org.
+Dependencies:
+pandas: For data manipulation.
+matplotlib: For data visualization.
+Contributing
+Contributions are welcome! To contribute:
 
-## Contributing
-Contributions to the Gramps-YDNA-Analyzer project are welcome! To contribute:
+Fork the repository on GitHub.
+Create a new branch for your feature or bug fix.
+Commit your changes with clear messages.
+Submit a pull request with a detailed description of your changes.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-1. Fork the repository on GitHub.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes with clear messages.
-4. Submit a pull request with a detailed description of your changes.
+Support
+If you encounter any issues or have questions, please open an issue on the GitHub repository.
 
-## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more details.
-
-## Support
-If you encounter issues or have questions, please open an issue on the [GitHub repository](https://github.com/CA1-TEAM/Gramps-YDNA-Analyzer/issues).
-
----
-
-**Gramps-YDNA-Analyzer** is designed to make Y-DNA analysis easier and more accessible for genealogical researchers. Whether you are uncovering ancestral connections or analyzing DNA patterns, this plugin provides powerful tools to support your journey.
-
-
+YDNA-Analyzer is designed to make Y-DNA analysis easier and more accessible for genealogical researchers. Whether you’re uncovering ancestral connections or analyzing DNA patterns, this tool provides powerful features to support your journey.
