@@ -17,6 +17,8 @@ MANIFEST
 
 # PyInstaller
 *.spec
+*.exe
+*.app
 
 # Environment / Dependency Management
 .env
@@ -85,12 +87,9 @@ logs/
 temp/
 cache/
 
-# Gramps-specific files (if applicable)
-*.gramps
-GrampsBackup/
-
 # Type-checking tools
 .mypy_cache/
 .pyre/
 .pytype/
 dmypy.json
+
