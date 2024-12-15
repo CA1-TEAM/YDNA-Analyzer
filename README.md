@@ -68,7 +68,3 @@ License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Support
-If you encounter any issues or have questions, please open an issue on the GitHub repository.
-
-YDNA-Analyzer is designed to make Y-DNA analysis easier and more accessible for genealogical researchers. Whether you’re uncovering ancestral connections or analyzing DNA patterns, this tool provides powerful features to support your journey. update my readme to include
