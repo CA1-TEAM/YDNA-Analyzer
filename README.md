@@ -6,7 +6,7 @@ The YDNA-Analyzer is a standalone Python tool for analyzing Y-DNA data. It allow
 Features
 
 Scatter Plots: Visualize SNP vs. STR data with color-coded haplogroups.
-Standalone Tool: Does not require Gramps or any other software dependencies.
+Standalone Tool: 
 Easy to Use: Load Y-DNA data from a CSV file and analyze it with simple commands.
 Installation
 To use the YDNA-Analyzer, follow these steps:
